@@ -1,0 +1,94 @@
+* {
+	margin-top: 5px;
+    margin-left: 0;
+	padding: 1;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+.top{
+    color: rgb(86, 175, 235);
+    text-align: center;
+    
+  }
+  .left{
+    position: relative;
+      background-color: #494a5f;
+      position: relative;
+      color: red;
+      /* font-size: 20px; */
+      width: 150px;
+      height: 100%;
+      float: left;
+      text-align: center;
+      margin-left: 0px;
+      
+  }
+  /* 将a标签颜色提高层级 */
+a{
+    color: black;
+    text-decoration: none;
+    z-index: 999;
+
+  }
+  .left ul{
+      width: 150px;
+      height:  100%;
+      list-style-type: none;
+  }
+  .left ul li{
+      /* float: left; */
+      margin: 40px;
+      margin-left: 0px;
+  }
+  .left a{
+      text-decoration: none;
+  
+  }
+  td, th {
+    /* white-space: nowrap; 文本不换行显示 */
+    white-space: nowrap;
+    width: 70px;
+    height: 35px;
+    color: black;
+    /*text-align: center;文本居中显示*/
+    text-align: center;
+}
+.bigbox{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+.main{
+    position: relative;
+    width: 1100px;
+    height: 100%;
+    background-color: #494a5f;
+    float: left;
+}
+
+.main table{
+    position: relative;
+    width: 95%;
+    height: 35px;
+    background-color: #efe8f4;
+    float: left;
+}
+
+/* 右边为right盒子沾满右边区域 */
+.right{
+    position: relative;
+    width: 280px;
+    height: 100%;
+    background-color: #494a5f;
+    float: left;
+}
+.smallbox{
+    position: relative;
+    width: 280px;
+    height: 100%;
+    background-color: #494a5f;
+    float: left;
+    margin-top: 0px;
+}
+

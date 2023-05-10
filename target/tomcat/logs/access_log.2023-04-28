@@ -1,0 +1,6 @@
+123.15.4.251 - - [28/Apr/2023:10:52:26 +0800] "GET /app HTTP/1.1" 302 - http-bio-8080-exec-1 0
+123.15.4.251 - - [28/Apr/2023:10:52:26 +0800] "GET /app/ HTTP/1.1" 200 5774 http-bio-8080-exec-3 520
+123.15.4.251 - - [28/Apr/2023:10:52:26 +0800] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-4 0
+123.15.4.251 - - [28/Apr/2023:10:52:43 +0800] "GET /app/index.jsp?sname=q HTTP/1.1" 200 1473 http-bio-8080-exec-5 36
+123.15.4.251 - - [28/Apr/2023:10:52:47 +0800] "GET /app/index.jsp?sname=1 HTTP/1.1" 200 2138 http-bio-8080-exec-6 16
+123.15.4.251 - - [28/Apr/2023:10:52:49 +0800] "GET /app/index.jsp?sname=1 HTTP/1.1" 200 2138 http-bio-8080-exec-7 31

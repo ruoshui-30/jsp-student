@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+.bigbox{
+    position:flex;    
+}
+.top{
+    position: relative;
+    width: 250px;
+    height: 100px;
+    /* background-color: brown; */
+    padding-top: 20px;
+    margin: auto;
+}
+/* 使模块divcenter居中显示 */
+.divcenter{
+    position: relative;
+    width: 500px;
+    height: 100%;
+    /* margin-left: 550px; */
+    margin: auto;
+}
+.main tr td input{
+    width: 330px;
+    height: 40px;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+.footer{
+    position: relative;
+    margin-left: 70px;
+}
+.footer input{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #00a2d4;
+    color: white;
+    font-size: 20px;
+}
